@@ -15,7 +15,21 @@ header{
     border: 1px solid #2B5468;
 }
 
-.cards-wrap{
+.card-wrap{
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-item>div:nth-child(2){
+    border: 1px solid #2B5468;
+    height: 110px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+/* .cards-wrap{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -46,4 +60,4 @@ header{
 .card-item-text > h2{
     text-align: center;
     font-size: 23px;
-}
+} */
