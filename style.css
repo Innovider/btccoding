@@ -15,6 +15,10 @@ header{
     border: 1px solid #2B5468;
 }
 
+.cards-wrap{
+    margin: 0 auto;
+}
+
 .card-wrap{
     height: 170px;
     display: flex;
