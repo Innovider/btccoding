@@ -1,6 +1,6 @@
 let hei = $('nav').height();
 
-$('main').css('margin',hei+10);
+$('main').css('margin',hei+40 + 'px');
 
 let cardWidth = $('.card-item>div:nth-child(2)').width();
 
